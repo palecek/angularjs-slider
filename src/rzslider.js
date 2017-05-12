@@ -11,15 +11,12 @@
 (function(root, factory) {
   'use strict';
   /* istanbul ignore next */
-  if (typeof define === 'function' && define.amd) {
-    // AMD. Register as an anonymous module.
-    define(['angular'], factory);
-  } else if (typeof module === 'object' && module.exports) {
+  if (typeof module === 'object' && module.exports) {
     // Node. Does not work with strict CommonJS, but
     // only CommonJS-like environments that support module.exports,
     // like Node.
     // to support bundler like browserify
-    var angularObj = angular || require('angular');
+    var angularObj = angular
     if ((!angularObj || !angularObj.module) && typeof angular != 'undefined') {
       angularObj = angular;
     }

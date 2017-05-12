@@ -1,11 +1,11 @@
 {
   "name": "angularjs-slider",
-  "version": "6.1.1",
+  "version": "6.1.2",
   "description": "AngularJS slider directive with no external dependencies. Mobile friendly!.",
   "main": "dist/rzslider.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/angular-slider/angularjs-slider"
+    "url": "https://github.com/palecek/angularjs-slider"
   },
   "keywords": [
     "angular",

@@ -1,21 +1,18 @@
-/*! angularjs-slider - v6.1.1 - 
+/*! angularjs-slider - v6.1.2 - 
  (c) Rafal Zajac <rzajac@gmail.com>, Valentin Hervieu <valentin@hervieu.me>, Jussi Saarivirta <jusasi@gmail.com>, Angelin Sirbu <angelin.sirbu@gmail.com> - 
- https://github.com/angular-slider/angularjs-slider - 
- 2017-04-23 */
+ https://github.com/palecek/angularjs-slider - 
+ 2017-05-12 */
 /*jslint unparam: true */
 /*global angular: false, console: false, define, module */
 (function(root, factory) {
   'use strict';
   /* istanbul ignore next */
-  if (typeof define === 'function' && define.amd) {
-    // AMD. Register as an anonymous module.
-    define(['angular'], factory);
-  } else if (typeof module === 'object' && module.exports) {
+  if (typeof module === 'object' && module.exports) {
     // Node. Does not work with strict CommonJS, but
     // only CommonJS-like environments that support module.exports,
     // like Node.
     // to support bundler like browserify
-    var angularObj = angular || require('angular');
+    var angularObj = angular
     if ((!angularObj || !angularObj.module) && typeof angular != 'undefined') {
       angularObj = angular;
     }

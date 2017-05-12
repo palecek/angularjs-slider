@@ -1,3 +1,7 @@
+# 6.1.2 (2017-05-12)
+## Fixes
+- Removed exact dependency on angular
+
 # 6.1.1 (2017-03-29)
 ## Fixes
 - Add vendor prefixes for transform property in JS code (#518)
